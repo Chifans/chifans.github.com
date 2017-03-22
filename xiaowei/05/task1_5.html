@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task1_5</title>
+    <style>
+        body{ margin:0; padding:0;
+            background-color: #dcdcdc;}
+        .daohang{
+            height: 60px;
+            width: 100%;
+            background-color:#333333;
+
+        }
+        .copy{
+            height: 40px;
+            background-color:#333333;
+            text-align: center;
+            color: white;
+            padding-top: 20px;
+            width: 100%;
+
+
+        }
+        .dha li{
+            width: 110px;
+            float: left;
+            list-style: disc;
+
+        }
+        .dha a:link{
+            color: white;
+            text-decoration: none;
+        }
+        .dha a:visited{
+            color: #8c8889;
+        }
+        .logo{
+            background-image: url(images/baidu.jpg);
+            background-size: 120px 40px;
+            background-repeat:no-repeat;
+            width: 120px;
+            height: 40px;
+            float: left;
+            position: relative;
+            top:10px;
+            left:50px;
+        }
+        .dha{
+            position: relative;
+            top:8px;
+            right:5px;
+
+            float: right;
+
+        }
+        .first{
+            margin:20px 410px 20px 20px;
+            padding: 20px 15px;
+            background-color: white;
+            border-width:1px 2px 2px 1px;
+            border-color:#e0e0e0 #848484 #848484 #e0e0e0;
+            border-style:solid;
+
+        }
+        .first ul li{
+            list-style: none;
+        }
+        .second{
+            margin:20px 410px 20px 20px;
+            padding: 20px 15px;
+            background-color: white;
+            border-width:1px 2px 2px 1px;
+            border-color:#e0e0e0 #848484 #848484 #e0e0e0;
+            border-style:solid;
+
+        }
+        .second li{
+            list-style: none;
+            border:1px solid #e0e0e0;
+            width: 120px;
+            height: 130px;
+            margin-top: 10px;
+            padding: 10px;
+            display: inline-block;
+        }
+        .second p{
+            text-align: center;
+            margin: 4px;
+        }
+        .second img{
+            width: 100%;
+            height: 80%;
+        }
+        h2{
+            color: #8c8889;
+        }
+        h2+p{
+            color: #8c8889;
+        }
+        .first table{
+            width:100%;
+        }
+        .first tr:first-of-type{
+            background-color: black;
+            color: white;
+        }
+        .first tr:last-of-type{
+            font-weight: bolder;
+            background-color: #848484;
+        }
+        /*.first form{
+
+            padding-left: 200px;
+        }*/
+
+        .box1{
+            margin-left: auto;
+            margin-top: 25px;
+        }
+
+        .box_text{
+            color: #8c8889;
+            position:relative;
+            left:140px;
+            margin-top: 3px;
+        }
+        .box_input{
+            display: inline-block;
+            position:relative;
+            left:4px;
+
+        }
+        input[type=password],input[type=text]{
+            width: 120px;
+        }
+        .ts{
+            text-align: right;
+            width: 140px;
+            display: inline-block;
+            position: relative;
+            right:-10px;
+        }
+        .button{
+            margin-top: 35px;
+            height: 30px;
+            width: 100%;
+            background-color: #59b3ff;
+            text-align: center;
+            font-size: 16px;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            border: none;
+            text-decoration: none;
+        }
+        .third{
+            width: 340px;
+            margin:20px;
+            padding: 20px 15px;
+            background-color: white;
+            border-width:1px 2px 2px 1px;
+            border-color:#e0e0e0 #848484 #848484 #e0e0e0;
+            border-style:solid;
+            float: right;
+        }
+        .wrapper{
+            width: 100%;
+            margin-right: -450px;
+            float: left;
+
+        }
+        .clear{clear:both}
+    </style>
+</head>
+<body>
+<div class="daohang">
+    <div class="logo"></div>
+    <div class="dha">
+        <ul>
+            <li><a href="#">导航链接一</a></li>
+            <li><a href="#">导航链接二</a></li>
+            <li><a href="#">导航链接三</a></li>
+            <li><a href="#">导航链接四</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="wrapper">
+    <div class="first">
+        <h1>文章一级标题</h1>
+        <h2>文章二级标题</h2>
+        <p>文章作者 文章发表时间</p>
+        <p>&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<br>
+            这是一个很长很长的段落，这是一个很长很长的段落，<a href="https://www.baidu.com/">这里有个链接链接到百度</a>这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+        <img src="images/timg.jpg" width="200" height="150">
+        <p>&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<br>
+            这是一个很长很长的段落，这是一个很长很长的段落，<a href="https://www.baidu.com/" target="_blank">这里有个链接点击后打开新窗口</a>这是一个很长很长的段落，这里有个粗体字这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+    </div>
+    <div class="first">
+        <h1>另一篇文章一级标题</h1>
+        <h2>文章二级标题</h2>
+        <p>文章作者 文章发表时间</p>
+        <p>&nbsp;&nbsp;这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<br>
+            这是一个很长很长的段落，这是一个很长很长的段落，<a href="https://www.baidu.com/">这里有个链接链接到百度</a>这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+        <img src="images/timg.jpg" width="200" height="150">
+        <ul>
+            <li>列表项目一</li>
+            <li>列表项目二</li>
+            <li>列表项目三</li>
+        </ul>
+    </div>
+    <div class="second">
+        <h3>图片</h3>
+        <ul>
+            <li><p>好看的图片</p><img src="images/dogg.jpg"></li>
+            <li><p>好看的图片</p><img src="images/dogg.jpg"></li>
+            <li><p>好看的图片</p><img src="images/dogg.jpg"></li>
+            <li><p>好看的图片</p><img src="images/dogg.jpg"></li>
+            <li><p>好看的图片</p><img src="images/dogg.jpg"></li>
+            <li><p>好看的图片</p><img src="images/dogg.jpg"></li>
+            <li><p>好看的图片</p><img src="images/dogg.jpg"></li>
+            <li><p>好看的图片</p><img src="images/dogg.jpg"></li>
+            <li><p>好看的图片</p><img src="images/dogg.jpg"></li>
+            <li><p>好看的图片</p><img src="images/dogg.jpg"></li>
+        </ul>
+    </div>
+    <div class="first">
+        <h1>最后一篇文章一级标题</h1>
+        <h2>文章二级标题</h2>
+        <p>文章作者 文章发表时间</p>
+        <ol>
+            <li>排名1</li>
+            <li>排名2</li>
+            <li>排名3</li>
+        </ol>
+        <table >
+            <tr>
+                <td>表头</td>
+                <td>表头</td>
+                <td>表头</td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td>操作</td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td>操作</td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td>操作</td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td>操作</td>
+            </tr>
+            <tr>
+                <td>总计</td>
+                <td colspan="2">1000</td>
+
+            </tr>
+        </table>
+    </div>
+</div>
+    <div class="third">
+    <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+    <form >
+        <div class="box1">
+            <label for="mail" class="ts">请输入邮箱地址： </label>
+
+
+            <div class="box_input"><input type="text" id="mail" placeholder="这是一个文本输入框"></div>
+            <div class="box_text">邮箱地址请按要求格式输入</div>
+        </div>
+        <div class="box1">
+            <label for="passw" class="ts">请输入密码： </label>
+            <div class="box_input"><input type="password" id="passw"></div>
+        </div>
+        <div class="box1">
+            <label for="apassw"  class="ts">请重复输入密码： </label>
+            <div class="box_input"><input type="password" id="apassw"></div>
+            <div class="box_text">密码请为6-16位英文数字</div>
+        </div>
+        <div class="box1">
+            <div  class="ts">性别：</div>
+            <div class="box_input"><input type="radio" name="sex"  checked>男
+                <input type="radio" name="sex">女
+            </div>
+        </div>
+        <div class="box1">
+            <div class="ts">城市：</div>
+            <div class="box_input">
+                <select name="city">
+                    <option value="BJ">北京</option>
+                    <option value="SH">上海</option>
+                    <option value="ZJ">杭州</option>
+                    <option value="JS">南京</option>
+                </select>
+            </div>
+        </div>
+        <div class="box1"><div class="ts">爱好：</div>
+            <div class="box_input">
+                <input type="checkbox" >运动
+                <input type="checkbox" >艺术
+                <input type="checkbox" >科学
+            </div>
+        </div>
+        <div class="box1"><div  class="ts">个人描述：</div>
+            <div class="box_input"><textarea cols="20" role="20" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+            </div>
+        </div>
+        <input type="submit" value="确认提交" class="button">
+    </form>
+</div>
+<div class="clear"></div>
+<div class="copy">版权所有&copy </div>
+</body>
+</html>
